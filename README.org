@@ -1,0 +1,3 @@
+* This is a sample github project to setup the following
+  - gpg siging required for all commits
+  - gpg siging required for all push/pull requests
