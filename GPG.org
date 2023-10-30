@@ -1,1 +1,4 @@
 * run these commands
+  gpg --full-generate-key
+  gpg --list-secret-keys --keyid-format=long
+  gpg --armor --export your@email.address | curl -T - https://keys.openpgp.org
