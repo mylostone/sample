@@ -1,0 +1,6 @@
+* run these commands
+  gpg --full-generate-key
+  gpg --list-secret-keys --keyid-format=long
+  gpg --armor --export your@email.address | curl -T - https://keys.openpgp.org
+
+* how do we get the saattus of the commit to show as verified in github?
